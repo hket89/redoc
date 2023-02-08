@@ -1,0 +1,14 @@
+{
+  "name": "hket89-redoc",
+  "version": "1.0.0",
+  "dependencies": {
+    "@redocly/cli": "1.0.0-beta.123"
+  },
+  "private": true,
+  "scripts": {
+    "start": "redocly preview-docs",
+    "build": "redocly build-docs -o dist/index.html",
+    "bundle": "redocly bundle -o dist",
+    "test": "redocly lint"
+  }
+}
